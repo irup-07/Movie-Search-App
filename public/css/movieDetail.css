@@ -1,0 +1,121 @@
+body{
+  color: white ;
+  background-color: black !important;
+}
+
+h1
+{
+  font-family: 'Merriweather', serif;
+  font-size: 64px !important;
+  color: white;
+}
+
+.name{
+  padding-top: 7%;
+/
+
+ line-height: 1.5 !important;
+}
+
+#posterArea
+{background-color: black;
+  margin-top: 50px;
+}
+
+.image{
+  border-style: groove;
+margin-left: 15%;
+
+
+}
+.button
+{
+  margin-top: 25px;
+  background-color: #0F79AE !important;
+}
+
+.imageblock
+{
+  padding-left: 20px !important;
+
+}
+
+
+ /* poster area ends */
+
+h3{
+font-weight:bold;
+  font-family: 'Merriweather', serif;
+
+}
+p{
+  font-family: 'Caladea', serif;
+font-size: 18px;
+
+}
+ #belowPoster
+ {margin-top: 70px;
+    background-color: #eeeeee !important;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 11%;
+    line-height: 2;
+   /* height: 600px; */
+   color: black;
+
+ }
+ .add{
+   width: 100%;
+ }
+.bottom{
+  color:#f7e9f2;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+}
+
+ @media (max-width: 575.98px) {
+   .imageblock
+   {
+
+     padding-left:20px !important;
+   }
+   .image{
+     border-style: groove;
+   margin-left: 0%;
+
+  }
+
+  #belowPoster
+  {   padding-left: 0%;
+
+  }
+
+}
+/* @media (max-width: 767.98px) {
+
+   .imageblock
+   {
+
+     padding-left: 0px;
+   }
+   .image{
+     border-style: groove;
+   margin-left: 0%;
+
+   }
+  } */
+
+
+
+  /* carousel Css */
+
+.bottom{
+  text-align: center;
+
+  color: #e3e3d3;
+}
+
+
+
+    /* carousel Css */
